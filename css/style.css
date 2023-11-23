@@ -128,7 +128,6 @@ hr{
     display: flex;
     justify-content: end;
     align-items: end;
-
 }
 
 .btns img{
@@ -150,10 +149,22 @@ hr{
     background-color: #292929;
     border-radius: 5px;
     margin: 0px 5px 0px 5px;
+    transition: background-color 0.4s;
+}
+
+.deploy:hover, .github:hover{
+    background-color: rgb(85, 85, 85);
+    border: 2px solid rgb(85, 85, 85);
 }
 
 .card{
     min-height: 250px;
+    border: 1px solid rgba(129, 129, 129, 0.473);
+    margin-bottom: 25px;
+}
+
+.card h5{
+    color: white;
 }
 
 
@@ -178,6 +189,9 @@ hr{
         display: flex !important;
         margin-bottom: 0;
         padding: 0 !important;
+    }
+    body{
+        padding: 30px;
     }
 }
 
